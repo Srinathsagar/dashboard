@@ -1,0 +1,110 @@
+.customer-card {
+  max-width: 400px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  background-color: #fff;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 18px;
+  color: #555;
+}
+
+.details {
+  margin-left: 10px;
+}
+
+.details h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.details p {
+  margin: 4px 0 0;
+  color: #666;
+  font-size: 14px;
+}
+
+.section {
+  margin-bottom: 20px;
+  background-color: #4c629208;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.item span:last-child {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Updated Add button styles */
+.add-btn {
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%; /* Full width */
+  background-color: #4c62921a; /* Blue background */
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  color: black; /* White text */
+  text-align: center;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.assign-btn,
+.add-widget-btn {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.assign-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.add-widget-btn {
+  background-color: #f4f4f4;
+  color: #007bff;
+}
+
+.add-widget-btn:hover {
+  background-color: #e0e0e0;
+}

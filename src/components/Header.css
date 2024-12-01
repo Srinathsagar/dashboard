@@ -1,0 +1,77 @@
+/* Navbar Style */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  padding: 0 16px;
+  color: #8a8ea6;
+  background-color: #fff;
+}
+
+.left {
+  margin-left: 25px;
+  font-family: "Inter", sans-serif;
+  font-size: 17.5px;
+  font-weight: 500;
+  line-height: 26.25px;
+}
+
+/* Right Section */
+.right-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 571px;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+}
+
+.section-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Icon Style */
+.icon {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.right-section .icon svg {
+  margin-right: 8px;
+}
+
+/* Badge Styles */
+.hod-badge {
+  background-color: #fccc55;
+  padding: 5px 15px;
+  font-weight: bold;
+  border-radius: 5px;
+  color: #44486d;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+
+.admin-badge {
+  background-color: #e553bc;
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+
+/* General Span Style */
+span {
+  font-size: 1rem;
+}
+
+.right-section span {
+  font-style: italic;
+}

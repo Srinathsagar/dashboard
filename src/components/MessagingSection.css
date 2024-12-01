@@ -1,0 +1,135 @@
+.dashboard {
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+}
+
+/* Ask Catura Section */
+.ask-catura .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ask-catura .icons span {
+  margin-left: 10px;
+  font-size: 14px;
+  color: #666;
+}
+
+.ask-catura .template-box {
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.ask-catura .template-box .buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.ask-catura .template-box .btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.ask-catura .template-box .btn:hover {
+  background-color: #0056b3;
+}
+
+.ask-catura .message-input {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.ask-catura .message-input input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.ask-catura .message-input .send-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 14px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.ask-catura .message-input .send-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Action Launcher Section */
+.action-launcher .search-bar {
+  margin-bottom: 16px;
+}
+
+.action-launcher .search-bar input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.action-launcher .actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.action-btn {
+  padding: 8px 12px;
+  background-color: #f4f4f4;
+  color: #007bff;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.action-btn:hover {
+  background-color: #e0e0e0;
+}
+
+.action-btn.blue {
+  background-color: #007bff;
+  color: white;
+}
+
+.action-btn.blue:hover {
+  background-color: #0056b3;
+}
+
+/* Case Favorite Section */
+.case-favorite .case-item {
+  background-color: #f4f4f4;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}

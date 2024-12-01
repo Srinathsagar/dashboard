@@ -1,0 +1,22 @@
+.main-section {
+  margin-left: 250px;
+  flex-grow: 1;
+  transition: margin-left 0.3s ease;
+}
+.main-content {
+  margin: 12px 20px 12px 12px;
+}
+
+.sidebar.collapsed ~ .main-section {
+  margin-left: 80px;
+}
+
+.three-side {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.profile-section {
+  max-width: 450px;
+}

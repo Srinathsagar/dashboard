@@ -1,0 +1,67 @@
+/* ProfileNamesComponent.css */
+.profile-names-container {
+  display: flex;
+  height: 64px;
+  top: 89px;
+  gap: 10px;
+  overflow-x: auto;
+  align-items: center;
+  /* background-color: #fff; */
+  overflow: hidden;
+}
+
+/* Profile Card */
+.profile-card {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 213px;
+  gap: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  background-color: #fff;
+  padding: 8px 12px 8px 12px;
+
+  border-radius: 10px 10px 0px 0px;
+  opacity: 0px;
+}
+
+.profile-card.active {
+  border: 1px solid #078bfd;
+  color: #0f1729;
+}
+
+/* Profile Circle */
+.profile-circle {
+  width: 48px;
+  height: 48px;
+  background-color: #4c62921a;
+
+  color: #4c6292;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  text-transform: uppercase;
+
+  font-family: Inter;
+  font-size: 15.75px;
+  font-weight: 700;
+  line-height: 19.06px;
+  text-align: center;
+}
+
+/* Profile Name */
+.profile-name {
+  font-family: Inter;
+  font-size: 14px;
+  /* font-weight: 600; */
+  line-height: 21px;
+  text-align: left;
+}
+
+.msg {
+  background-color: #078bfd;
+  color: #fff;
+}
